@@ -1,0 +1,45 @@
+{
+    "prefix": "..",
+    "token": "MTA0NjMwNjA2ODEzNDkwMzgxOA.Gwn_M3.gJcTyj3X02-CHHPBzz8-36ZYjDsGQ9FVZkO_sI",
+    "client_id": "1046306068134903818",
+    "version": "",
+    "author": {
+        "name": "MrDark",
+        "id": "540951645945593867",
+        "server": "885213915972268092"
+    },
+    "permissions": {
+        "SendMessage": "SEND_MESSAGES",
+        "Admin": "ADMINISTRATOR",
+        "VoiceJoin": "CONNECT"
+    },
+    "status": [
+        {
+            "text": "Sponsored By PlazmaCloud",
+            "type": "PLAYING",
+            "url": "plazmacloud.com"
+        },
+        {
+            "text": "Sponsor By PlazmaCloud",
+            "type": "WATCHING",
+            "url": "plazmacloud.com"
+        },
+        {
+            "text": "Sponsor By PlazmaCloud",
+            "type": "STREAMING",
+            "url": "plazmacloud.com"
+        }
+    ],
+    "ad": {
+        "url": "https://plazmacloud.com/",
+        "footer": [
+            "Modeus is non-profitable community.",
+            "Help Modeus by donating $1 only.",
+            "Modeus service is free for everyone on discord."
+        ]
+    },
+    "apiKeys": {
+        "pixabay": "26027845-1ce078e1539abc9a489c12105",
+        "tensor": "GA7K7HGI7T4C"
+    }
+}
