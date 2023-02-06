@@ -1,4 +1,4 @@
-const { TextEmbed, DistubeEventSend } = require("../utils/messageEmbed");
+const { DistubeEventSend } = require("../utils/messageEmbed");
 const { ad } = require("../configurations/config.json");
 
 module.exports = (bot, queue, song) => {

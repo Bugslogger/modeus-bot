@@ -2,16 +2,16 @@
     "prefix": "..",
     "token": "MTA0NjMwNjA2ODEzNDkwMzgxOA.Gwn_M3.gJcTyj3X02-CHHPBzz8-36ZYjDsGQ9FVZkO_sI",
     "client_id": "1046306068134903818",
-    "version": "",
+    "version": "0.0.9",
     "author": {
         "name": "MrDark",
         "id": "540951645945593867",
         "server": "885213915972268092"
     },
     "permissions": {
-        "SendMessage": "SEND_MESSAGES",
-        "Admin": "ADMINISTRATOR",
-        "VoiceJoin": "CONNECT"
+        "SendMessage": "SendMessages",
+        "Admin": "Administrator",
+        "VoiceJoin": "Connect"
     },
     "status": [
         {

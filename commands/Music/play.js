@@ -11,7 +11,7 @@ module.exports.run = async (bot, interaction) => {
 
     let index = Math.floor(Math.random() * ad.footer.length);
     let footer = ad.footer[index];
-    console.log(index);
+    // console.log(index);
     
     const embed = new EmbedBuilder()
       .setTitle("Reading Your Request...")

@@ -1,8 +1,21 @@
 const { Client, GatewayIntentBits, Collection } = require("discord.js");
-const { Guilds, GuildMessages, GuildVoiceStates, GuildIntegrations } =
-  GatewayIntentBits;
+const {
+  Guilds,
+  GuildMessageTyping,
+  GuildMessages,
+  GuildVoiceStates,
+  GuildIntegrations,
+  MessageContent,
+  
+} = GatewayIntentBits;
 const client = new Client({
-  intents: [Guilds, GuildMessages, GuildVoiceStates, GuildIntegrations],
+  intents: [
+    Guilds,
+    GuildMessages,
+    GuildVoiceStates,
+    GuildIntegrations,
+    MessageContent,
+  ],
 });
 
 const { DisTube } = require("distube");
@@ -33,10 +46,10 @@ client.distube = new DisTube(client, {
   ],
 });
 
-client.on("interactionCreate",(interaction)=>{
+client.on("interactionCreate", (interaction) => {
   console.log(interaction.customId);
   console.log(interaction.memberPermissions);
-})
+});
 
 require("./utils/loadDistubeEvent")(client);
 

@@ -36,7 +36,7 @@ const embed = new EmbedBuilder();
 async function TextEmbed(interaction, object) {
   let index = Math.floor(Math.random() * ad.footer.length);
   let footer = ad.footer[index];
-  console.log(index, footer);
+  // console.log(index, footer);
 
   const embed = {
     title: object.title || "",
@@ -65,7 +65,7 @@ async function TextEmbed(interaction, object) {
 function DistubeEventSend(interaction, object) {
   let index = Math.floor(Math.random() * ad.footer.length);
   let footer = ad.footer[index];
-  console.log(index, footer);
+  console.log(index, footer); 
 
   object?.title && embed.setTitle(object?.title);
   object?.desc && embed.setDescription(object?.desc);
