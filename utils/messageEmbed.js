@@ -28,10 +28,6 @@ const embed = new EmbedBuilder();
  * ```
  *
  *
- *
- *
- *
- *
  */
 async function TextEmbed(interaction, object) {
   let index = Math.floor(Math.random() * ad.footer.length);
