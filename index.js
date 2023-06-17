@@ -1,27 +1,20 @@
 const { Client, GatewayIntentBits, Collection } = require("discord.js");
 const {
   Guilds,
-  GuildMessageTyping,
   GuildMessages,
   GuildVoiceStates,
   GuildIntegrations,
-  
 } = GatewayIntentBits;
 const client = new Client({
-  intents: [
-    Guilds,
-    GuildMessages,
-    GuildVoiceStates,
-    GuildIntegrations
-  ],
+  intents: [Guilds, GuildMessages, GuildVoiceStates, GuildIntegrations],
 });
+require("dotenv").config();
 
 const { DisTube } = require("distube");
 const { SpotifyPlugin } = require("@distube/spotify");
 const { SoundCloudPlugin } = require("@distube/soundcloud");
 const { YtDlpPlugin } = require("@distube/yt-dlp");
 
-const { token, client_id } = require("./configurations/config.json");
 const { RegisterSlash } = require("./utils/RegisterSlash");
 const loadCommands = require("./utils/loadCommands");
 
@@ -54,6 +47,6 @@ require("./utils/loadDistubeEvent")(client);
 require("./utils/loadEvents")(client);
 
 loadCommands(client);
-RegisterSlash(client);
+RegisterSlash(client, process.env.TOKEN);
 
-client.login(token);
+client.login(process.env.TOKEN);

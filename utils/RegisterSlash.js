@@ -1,10 +1,10 @@
-const { client_id, token } = require("../configurations/config.json");
+const { client_id } = require("../configurations/config.json");
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 
-const rest = new REST({ version: "10" }).setToken(token);
 
-async function RegisterSlash(client) {
+async function RegisterSlash(client,TOKEN) {
+  const rest = new REST({ version: "10" }).setToken(TOKEN);
   // registering for slash commands
   try {
     const commands = await client.command;

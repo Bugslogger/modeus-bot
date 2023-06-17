@@ -33,6 +33,7 @@
     "discord-api-types": "^0.37.20",
     "discord.js": "^14.11.0",
     "distube": "^4.0.4",
+    "dotenv": "^16.3.1",
     "sodium-native": "^4.0.0",
     "xmlhttprequest": "^1.8.0"
   }
