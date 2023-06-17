@@ -31,7 +31,7 @@
     "@distube/ytdl-core": "^4.11.8",
     "axios": "^1.2.3",
     "discord-api-types": "^0.37.20",
-    "discord.js": "^14.6.0",
+    "discord.js": "^14.11.0",
     "distube": "^4.0.4",
     "sodium-native": "^4.0.0",
     "xmlhttprequest": "^1.8.0"
