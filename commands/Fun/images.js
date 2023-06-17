@@ -57,7 +57,7 @@ module.exports.run = async (bot, interaction) => {
 module.exports.config = {
   name: "image",
   aliases: ["img"],
-  description: "Ask Modeus what images you want to see.",
+  description: "Ask Melody what images you want to see.",
   options: [
     {
       name: "imagename",

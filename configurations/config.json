@@ -1,7 +1,7 @@
 {
     "prefix": "..",
-    "token": "MTA0NjMwNjA2ODEzNDkwMzgxOA.Gwn_M3.gJcTyj3X02-CHHPBzz8-36ZYjDsGQ9FVZkO_sI",
-    "client_id": "1046306068134903818",
+    "token": "ODMxNTkyMjAxOTI5NzUyNTc2.GUQvqK.L5hNZnDjC03qTuzSVepQnblk-EUEGynrCDYXvc",
+    "client_id": "831592201929752576",
     "version": "0.0.9",
     "author": {
         "name": "MrDark",
@@ -33,9 +33,9 @@
     "ad": {
         "url": "https://plazmacloud.com/",
         "footer": [
-            "Modeus is non-profitable community.",
-            "Help Modeus by donating $1 only.",
-            "Modeus service is free for everyone on discord."
+            "Melody is non-profitable community.",
+            "Help Melody by donating $1 only.",
+            "Melody service is free for everyone on discord."
         ]
     },
     "apiKeys": {

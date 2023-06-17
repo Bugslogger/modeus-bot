@@ -53,7 +53,7 @@ module.exports.config = {
 // const embed = new EmbedBuilder()
 // .setTitle(`Hello, Darling 😘`)
 // .setDescription(
-//   `I'm Modeus Discord Bot To Provide You Breathtaking Features And My Love.\n\n[Invite Me](https://discord.com/api/oauth2/authorize?client_id=1046306068134903818&permissions=8&scope=bot%20applications.commands)\n[Support Server]( https://discord.gg/FpC8kX5kQB)`
+//   `I'm Melody Discord Bot To Provide You Breathtaking Features And My Love.\n\n[Invite Me](https://discord.com/api/oauth2/authorize?client_id=1046306068134903818&permissions=8&scope=bot%20applications.commands)\n[Support Server]( https://discord.gg/FpC8kX5kQB)`
 // )
 // .setThumbnail(
 //   `https://cdn.discordapp.com/avatars/${bot.user.id}/${bot.user.avatar}.png`

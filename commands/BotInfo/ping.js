@@ -8,7 +8,7 @@ module.exports.run = async (bot, interaction) => {
     console.log(index);
 
     const embed = new EmbedBuilder()
-      .setDescription(`**Modeus Heart Bit ${bot.ws.ping}ms**`)
+      .setDescription(`**Melody Heart Bit ${bot.ws.ping}ms**`)
       .setColor("DarkButNotBlack")
       .setFooter({ text: footer });
       
@@ -21,5 +21,5 @@ module.exports.run = async (bot, interaction) => {
 module.exports.config = {
   name: "ping",
   aliases: ["ping"],
-  description: "Modeus Heart Bit Rate ❤",
+  description: "Melody Heart Bit Rate ❤",
 };

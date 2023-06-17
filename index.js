@@ -5,7 +5,6 @@ const {
   GuildMessages,
   GuildVoiceStates,
   GuildIntegrations,
-  MessageContent,
   
 } = GatewayIntentBits;
 const client = new Client({
@@ -13,8 +12,7 @@ const client = new Client({
     Guilds,
     GuildMessages,
     GuildVoiceStates,
-    GuildIntegrations,
-    MessageContent,
+    GuildIntegrations
   ],
 });
 
