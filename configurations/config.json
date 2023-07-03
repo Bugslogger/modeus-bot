@@ -1,6 +1,6 @@
 {
     "prefix": "..",
-    "token": "ODMxNTkyMjAxOTI5NzUyNTc2.GUQvqK.L5hNZnDjC03qTuzSVepQnblk-EUEGynrCDYXvc",
+    "token": "GUQvqK.L5hNZnDjC03qTuzSVepQnblk-EUEGynrCDYXvc",
     "client_id": "831592201929752576",
     "version": "0.0.9",
     "author": {
@@ -39,7 +39,7 @@
         ]
     },
     "apiKeys": {
-        "pixabay": "26027845-1ce078e1539abc9a489c12105",
-        "tensor": "GA7K7HGI7T4C"
+        "pixabay": "",
+        "tensor": ""
     }
 }
